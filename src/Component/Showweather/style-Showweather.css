@@ -1,0 +1,11 @@
+p {
+  color: #D4ECDD;
+}
+
+p span {
+  color: antiquewhite;
+}
+
+p.error {
+  color: #ff5179;
+}

@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #345b63;
+  padding: 15px 40px 15px 10px;
+  margin-bottom: 10px;
+  color: antiquewhite;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #D4ECDD;
+}
+
+button {
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: #112031;
+  color: antiquewhite;
+  align-self: end;
+  cursor: pointer;
+}
