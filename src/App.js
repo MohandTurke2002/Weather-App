@@ -20,7 +20,7 @@ class App extends Component {
     const city = e.target[0].value;
     const country = e.target[1].value;
     let link = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}%2C${country}&appid=${apiKey}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}%2C${country}&appid=${apiKey}`
     );
     let data = await link.json();
     if (city && country) {
